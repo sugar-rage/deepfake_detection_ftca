@@ -1,0 +1,57 @@
+# ==============================================
+# Deepfake FTCA Project .gitignore
+# ==============================================
+
+# 🚫 Dataset and frame folders
+frames/
+datasets/
+data/
+outputs/
+outputs_gpu/
+results/
+temp/
+checkpoints/
+pretrained_models/
+
+# 🚫 Numpy and tensor files
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# 🚫 Video and image data
+*.mp4
+*.avi
+*.mov
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# 🚫 Logs and cache
+__pycache__/
+*.log
+*.txt
+*.csv
+*.zip
+*.tar
+*.gz
+*.ipynb_checkpoints/
+runs/
+wandb/
+
+# 🚫 IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ✅ Keep these
+!.gitignore
+!README.md
+!requirements.txt
+!*.py
+!*.ipynb
